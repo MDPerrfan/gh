@@ -1,5 +1,5 @@
 import React from "react";
-import { MapPin, Phone, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 const SCHEDULE = [
   { days: "Mon – Fri", time: "10:00 AM – 8:00 PM" },
@@ -16,7 +16,7 @@ export default function LocationHours() {
             <div>
               <p className="text-xs uppercase tracking-[0.3em] text-[#B8893F] font-sans font-semibold mb-3 flex items-center gap-2">
                 <span className="w-5 h-[1px] bg-[#B8893F]" />
-                Experience TRESSE
+                Glamour Hairstyles
               </p>
               <h2 className="font-serif italic text-3xl sm:text-4xl text-[#E8D5B0] mb-8">
                 Visit Our Studio
@@ -31,7 +31,8 @@ export default function LocationHours() {
                     <div>
                       <p className="text-xs uppercase tracking-wider text-[#B8893F] font-medium mb-1">Address</p>
                       <p className="font-sans font-light text-sm text-[#F2EDE6]/80 leading-relaxed">
-                        Dhanmondi, Dhaka,<br />Bangladesh
+                        Lot 9 Sheriff Street &amp; Third Avenue,<br />
+                        Sunbryanville, Georgetown, Guyana
                       </p>
                     </div>
                   </div>
@@ -41,10 +42,23 @@ export default function LocationHours() {
                     <div>
                       <p className="text-xs uppercase tracking-wider text-[#B8893F] font-medium mb-1">Appointments</p>
                       <a
-                        href="tel:+8801700000000"
-                        className="font-sans font-light text-sm text-[#F2EDE6]/80 hover:text-[#B8893F] transition-colors"
+                        href="tel:+5926816014"
+                        className="font-sans font-light text-sm text-[#F2EDE6]/80 hover:text-[#B8893F] transition-colors block"
                       >
-                        +880 1700-000000
+                        +592 681 6014
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3 pt-2">
+                    <Mail size={18} strokeWidth={1.5} className="text-[#B8893F] mt-1 shrink-0" />
+                    <div>
+                      <p className="text-xs uppercase tracking-wider text-[#B8893F] font-medium mb-1">Email Us</p>
+                      <a
+                        href="mailto:glamourhairstylesgy@gmail.com"
+                        className="font-sans font-light text-sm text-[#F2EDE6]/80 hover:text-[#B8893F] transition-colors block break-all"
+                      >
+                        glamourhairstylesgy@gmail.com
                       </a>
                     </div>
                   </div>
@@ -71,7 +85,7 @@ export default function LocationHours() {
             {/* Directions Link */}
             <div className="pt-4 border-t border-[#B8893F]/20">
               <a
-                href="https://maps.google.com"
+                href="https://maps.google.com/?q=Lot+9+Sheriff+Street+%26+Third+Avenue,+Sunbryanville,+Georgetown,+Guyana"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-block border-b border-[#B8893F] text-xs uppercase tracking-[0.2em] font-sans font-medium text-[#E8D5B0] hover:text-[#B8893F] hover:border-[#B8893F] transition-colors pb-1"
@@ -85,7 +99,7 @@ export default function LocationHours() {
           <div className="lg:col-span-5 relative min-h-[300px] lg:min-h-full border-t lg:border-t-0 lg:border-l border-[#B8893F]/20 overflow-hidden">
             <img
               src="https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1000&auto=format&fit=crop"
-              alt="TRESSE Studio Interior"
+              alt="Glamour Hairstyles Studio Interior"
               className="w-full h-full object-cover object-center filter brightness-[0.9]"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#14060C]/60 via-transparent to-transparent lg:hidden" />

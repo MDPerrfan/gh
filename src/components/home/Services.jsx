@@ -2,29 +2,30 @@ import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const SERVICES = [
+  
   {
-    title: "Scalp Recovery",
-    description: "Soothing, balancing therapy engineered for deep scalp health and rejuvenation.",
-    image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=1000&auto=format&fit=crop",
-    href: "/services/scalp-recovery",
-  },
-  {
-    title: "Keratin Therapy",
-    description: "Deep repair, bond rebuilding, and long-lasting silky smoothness.",
+    title: "Brazilian Keratin & Botox",
+    description: "Smooth, shiny, and strong frizz-free transformations tailored to restore hair vitality.",
     image: "https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=1000&auto=format&fit=crop",
-    href: "/services/keratin-therapy",
+    href: "/services/keratin-botox",
   },
   {
-    title: "Nourish & Restore",
-    description: "Targeted hair oil & botanical serum infusions that revive damaged strands.",
+    title: "Truss Gloss Treatment",
+    description: "Mirror shine, intense smoothness, and long-lasting perfection for high-glamour finishes.",
     image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1000&auto=format&fit=crop",
-    href: "/services/nourish-restore",
+    href: "/services/truss-gloss",
   },
   {
-    title: "Precision Hair Science",
-    description: "Microscopic scalp analysis and custom targeted treatment protocols.",
+    title: "Wella Professional Nourishment",
+    description: "Deep hair repair combined with a relaxing wash, scalp massage, and flawless blow-dry.",
+    image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=1000&auto=format&fit=crop",
+    href: "/services/wella-treatment",
+  },
+  {
+    title: "Wash & Blow-Dry Perfection",
+    description: "Gentle revitalizing wash, targeted conditioning, and a silky, voluminous styled finish.",
     image: "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?q=80&w=1000&auto=format&fit=crop",
-    href: "/services/hair-science",
+    href: "/services/wash-blowdry",
   },
 ];
 

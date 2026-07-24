@@ -41,6 +41,7 @@ function FacebookIcon({ size = 18, strokeWidth = 1.5, className = "" }) {
 }
 
 export default function Footer() {
+
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
@@ -52,87 +53,74 @@ export default function Footer() {
   };
 
   return (
-    <footer className="  bg-[#10050a] text-[#F2EDE6] border-t border-[#B8893F]/20">
-      {/* Main Footer Content */}
+    <footer className="bg-[#1C0E06] text-[#F9F3EA] border-t border-[#E3B888]/20">
       <div className="max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-4 gap-12">
         {/* Brand Column */}
         <div className="space-y-4">
-          <h3 className="font-serif italic text-3xl tracking-wide text-[#E8D5B0]">
-            TRESSE
-          </h3>
-          <p className="text-[#F2EDE6]/70 text-xs sm:text-sm leading-relaxed font-sans font-light">
-            Premier destination for advanced scalp recovery, keratin therapy, and science-driven hair restoration.
+          {/* <h3 className="font-serif text-2xl tracking-wide text-[#E3B888] uppercase">
+            Glamour Hairstyles
+          </h3> */}
+          <img className="w-[80px] md:w-[100px]" src="gh.png" alt="Glamour Hairstyles" />
+          <p className="text-[10px] tracking-[0.3em] text-[#E3B888]/80 font-light uppercase -mt-3">
+            By Carlos Henrique
           </p>
-          <div className="flex items-center gap-4 pt-2">
-            <a
-              href="#"
-              aria-label="Instagram"
-              className="p-2.5 rounded-full border border-[#B8893F]/30 text-[#E8D5B0] hover:border-[#B8893F] hover:text-[#B8893F] transition-colors duration-300"
-            >
-              <InstagramIcon size={16} strokeWidth={1.5} />
-            </a>
-            <a
-              href="#"
-              aria-label="Facebook"
-              className="p-2.5 rounded-full border border-[#B8893F]/30 text-[#E8D5B0] hover:border-[#B8893F] hover:text-[#B8893F] transition-colors duration-300"
-            >
-              <FacebookIcon size={16} strokeWidth={1.5} />
-            </a>
-          </div>
+          <p className="text-[#F9F3EA]/70 text-xs sm:text-sm leading-relaxed font-sans font-light pt-2">
+            "The best colour in the whole world is the one that looks good on you." Premier salon offering signature styling and specialized hair color treatments.
+          </p>
         </div>
 
-        {/* Navigation Links Column 1 */}
+        {/* Navigation Column 1 */}
         <div>
-          <p className="text-xs uppercase tracking-[0.25em] text-[#B8893F] font-sans font-semibold mb-5">
+          <p className="text-xs uppercase tracking-[0.25em] text-[#E3B888] font-sans font-semibold mb-5">
             Explore
           </p>
-          <ul className="space-y-3 text-xs sm:text-sm font-sans font-light text-[#F2EDE6]/75">
+          <ul className="space-y-3 text-xs sm:text-sm font-sans font-light text-[#F9F3EA]/75">
             <li>
-              <a href="/services" className="hover:text-[#E8D5B0] transition-colors">
+              <a href="/services" className="hover:text-[#E3B888] transition-colors">
                 Treatments &amp; Services
               </a>
             </li>
             <li>
-              <a href="/team" className="hover:text-[#E8D5B0] transition-colors">
+              <a href="/team" className="hover:text-[#E3B888] transition-colors">
                 Hair Specialists
               </a>
             </li>
             <li>
-              <a href="/shop" className="hover:text-[#E8D5B0] transition-colors">
+              <a href="/shop" className="hover:text-[#E3B888] transition-colors">
                 Shop Products
               </a>
             </li>
             <li>
-              <a href="/book" className="hover:text-[#E8D5B0] transition-colors">
+              <a href="/book" className="hover:text-[#E3B888] transition-colors">
                 Book Consultation
               </a>
             </li>
           </ul>
         </div>
 
-        {/* Navigation Links Column 2 */}
+        {/* Navigation Column 2 */}
         <div>
-          <p className="text-xs uppercase tracking-[0.25em] text-[#B8893F] font-sans font-semibold mb-5">
+          <p className="text-xs uppercase tracking-[0.25em] text-[#E3B888] font-sans font-semibold mb-5">
             Company
           </p>
-          <ul className="space-y-3 text-xs sm:text-sm font-sans font-light text-[#F2EDE6]/75">
+          <ul className="space-y-3 text-xs sm:text-sm font-sans font-light text-[#F9F3EA]/75">
             <li>
-              <a href="/about" className="hover:text-[#E8D5B0] transition-colors">
-                About TRESSE
+              <a href="/about" className="hover:text-[#E3B888] transition-colors">
+                About Carlos Henrique
               </a>
             </li>
             <li>
-              <a href="/contact" className="hover:text-[#E8D5B0] transition-colors">
+              <a href="/contact" className="hover:text-[#E3B888] transition-colors">
                 Contact Us
               </a>
             </li>
             <li>
-              <a href="/privacy-policy" className="hover:text-[#E8D5B0] transition-colors">
+              <a href="/privacy-policy" className="hover:text-[#E3B888] transition-colors">
                 Privacy Policy
               </a>
             </li>
             <li>
-              <a href="/terms" className="hover:text-[#E8D5B0] transition-colors">
+              <a href="/terms" className="hover:text-[#E3B888] transition-colors">
                 Terms &amp; Conditions
               </a>
             </li>
@@ -141,20 +129,20 @@ export default function Footer() {
 
         {/* Newsletter Signup */}
         <div>
-          <p className="text-xs uppercase tracking-[0.25em] text-[#B8893F] font-sans font-semibold mb-5">
+          <p className="text-xs uppercase tracking-[0.25em] text-[#E3B888] font-sans font-semibold mb-5">
             Stay Connected
           </p>
-          <p className="text-xs sm:text-sm text-[#F2EDE6]/70 mb-4 font-sans font-light">
-            Subscribe for exclusive treatment offers, hair science insights &amp; news.
+          <p className="text-xs sm:text-sm text-[#F9F3EA]/70 mb-4 font-sans font-light">
+            Subscribe for exclusive offers and color care insights.
           </p>
           {submitted ? (
-            <p className="text-xs sm:text-sm font-sans text-[#E8D5B0] italic">
-              Thank you — you are now subscribed to TRESSE.
+            <p className="text-xs sm:text-sm font-sans text-[#E3B888] italic">
+              Thank you for subscribing to Glamour Hairstyles.
             </p>
           ) : (
             <form
               onSubmit={handleSubmit}
-              className="flex border-b border-[#B8893F]/40 focus-within:border-[#B8893F] transition-colors py-1"
+              className="flex border-b border-[#E3B888]/40 focus-within:border-[#E3B888] transition-colors py-1"
             >
               <input
                 type="email"
@@ -162,11 +150,11 @@ export default function Footer() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
-                className="bg-transparent flex-1 py-1.5 text-xs sm:text-sm text-[#F2EDE6] placeholder:text-[#F2EDE6]/40 focus:outline-none font-sans"
+                className="bg-transparent flex-1 py-1.5 text-xs sm:text-sm text-[#F9F3EA] placeholder:text-[#F9F3EA]/40 focus:outline-none font-sans"
               />
               <button
                 type="submit"
-                className="text-xs uppercase tracking-[0.2em] font-sans font-medium text-[#B8893F] hover:text-[#E8D5B0] transition-colors pl-3"
+                className="text-xs uppercase tracking-[0.2em] font-sans font-medium text-[#E3B888] hover:text-[#F9F3EA] transition-colors pl-3"
               >
                 JOIN
               </button>
@@ -175,11 +163,11 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Legal / Copyright Bar */}
-      <div className="border-t border-[#B8893F]/15 bg-[#0e0409]">
-        <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-[11px] sm:text-xs text-[#F2EDE6]/50 font-sans">
-          <p>© {new Date().getFullYear()} TRESSE. All rights reserved.</p>
-          <p className="tracking-wide">Engineered for Hair Transformation &amp; Scalp Health.</p>
+      {/* Copyright Bar */}
+      <div className="border-t border-[#E3B888]/15 bg-[#1C0E06]">
+        <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-[11px] sm:text-xs text-[#F9F3EA]/50 font-sans">
+          <p>© {new Date().getFullYear()} Glamour Hairstyles by Carlos Henrique. All rights reserved.</p>
+          <p className="tracking-wide">Engineered for Hair Transformation &amp; Color Excellence.</p>
         </div>
       </div>
     </footer>

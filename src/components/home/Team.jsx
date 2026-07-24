@@ -23,59 +23,42 @@ function InstagramIcon({ size = 20, className }) {
 
 const TEAM = [
   {
-    name: "DINO",
-    role: "OWNER",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
+    name: "CARLOS HENRIQUE",
+    role: "CEO",
+    image: "team1.jpg",
     instagram: "#",
   },
   {
     name: "MARLISE",
     role: "SENIOR STYLIST",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop",
+    image: "team2.jpg",
     instagram: "#",
   },
   {
     name: "KRISTY",
     role: "STYLIST",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop",
+    image: "team3.jpg",
     instagram: "#",
   },
   {
     name: "MITCH",
     role: "STYLIST",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop",
+    image: "team4.jpg",
     instagram: "#",
   },
   {
     name: "ZORI",
     role: "ASSISTANT",
-    image: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=800&auto=format&fit=crop",
+    image: "team5.jpg",
     instagram: "#",
   },
   {
     name: "NICOLE",
     role: "SENIOR STYLIST",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop",
+    image: "team6.jpg",
     instagram: "#",
   },
-  {
-    name: "JAYME",
-    role: "SOCIAL MEDIA MANAGER",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop",
-    instagram: "#",
-  },
-  {
-    name: "NINA",
-    role: "STYLIST",
-    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
-    instagram: "#",
-  },
-  {
-    name: "AVIDEH",
-    role: "STYLIST",
-    image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=800&auto=format&fit=crop",
-    instagram: "#",
-  },
+
 ];
 
 export default function Team() {

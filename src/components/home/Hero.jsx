@@ -66,7 +66,7 @@ export default function Hero() {
 
       {/* Content Container */}
       <div className="relative z-10 max-w-7xl mx-auto h-full flex items-center px-6 sm:px-12">
-        <div className="max-w-2xl pt-20 sm:pt-28">
+        <div className="max-w-3xl pt-20 sm:pt-28">
           {/* Eyebrow */}
           <p className="text-xs sm:text-sm font-sans uppercase tracking-[0.3em] font-medium text-[#B8893F] mb-4 flex items-center gap-2">
             <span className="w-6 h-[1px] bg-[#B8893F]" />

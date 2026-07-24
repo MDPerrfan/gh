@@ -2,12 +2,12 @@ import { useState } from "react";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
 const REVIEWS = [
   {
-    quote: "Tresse has completely transformed my hair. It feels stronger, smoother, and healthier than ever.",
+    quote: "GH has completely transformed my hair. It feels stronger, smoother, and healthier than ever.",
     name: "Ananya R.",
     rating: 5,
   },
   {
-    quote: "Healthy hair is not a trend, it's a commitment. Tresse understands hair science unlike any other salon.",
+    quote: "Healthy hair is not a trend, it's a commitment. GH understands hair science unlike any other salon.",
     name: "Mariya K.",
     rating: 5,
   },

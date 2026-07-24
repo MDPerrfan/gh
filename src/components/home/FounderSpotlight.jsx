@@ -8,7 +8,7 @@ export default function FounderSpotlight() {
       <div className="absolute inset-0 z-0">
         <img
           src="https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=1920&auto=format&fit=crop"
-          alt="TRESSE Hair Expertise"
+          alt="Glamour Hairstyles by Carlos Henrique"
           className="w-full h-full object-cover object-center filter brightness-[0.85]"
         />
         {/* Dark luxury gradient overlays for ideal contrast */}
@@ -33,7 +33,7 @@ export default function FounderSpotlight() {
 
             <p className="text-xs uppercase tracking-[0.3em] text-[#B8893F] mb-4 font-sans font-semibold flex items-center gap-2">
               <span className="w-5 h-[1px] bg-[#B8893F]" />
-              Rooted in Science &amp; Expertise
+              Master Hair Stylist &amp; Founder
             </p>
 
             <h2 className="font-serif italic text-3xl sm:text-5xl leading-[1.15] mb-6 text-[#E8D5B0]">
@@ -42,7 +42,7 @@ export default function FounderSpotlight() {
             </h2>
 
             <p className="font-sans font-light text-sm sm:text-base text-[#F2EDE6]/80 leading-relaxed mb-8">
-              At TRESSE, we don't just style hair—we transform it from within. Guided by advanced hair science and a deep understanding of scalp health, our treatments nourish deeply to restore natural strength, vitality, and lasting confidence.
+              At Glamour Hairstyles by Carlos Henrique, we don't just style hair—we transform it from within. Guided by advanced hair care, precision techniques, and luxury formulations, every service is tailored to deliver hair that looks healthy, radiant, and effortlessly beautiful.
             </p>
 
             <a
