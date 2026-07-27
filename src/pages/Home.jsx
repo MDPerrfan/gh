@@ -18,9 +18,9 @@ export default function Home() {
       <ServicesMarquee />
       <About />
       <FounderSpotlight />
+      <ProductShowcase />
       <Services />
       <Team />
-      <ProductShowcase />
       <Testimonials />
       <LocationHours />
       <Footer />
