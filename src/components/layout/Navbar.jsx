@@ -71,7 +71,7 @@ export default function Navbar() {
             {/* Brand Logo */}
             <a href="/" className="mx-auto lg:mx-0 flex flex-col items-center group text-center">
               <span className="font-serif text-xl sm:text-2xl tracking-[0.25em] font-light text-[#E3B888] group-hover:text-[#F9F3EA] transition-colors uppercase">
-                <img className="w-[100px] hidden md:block" src="gh.png" alt="Glamour Hairstyles" />
+                <img className="w-[100px]" src="gh.png" alt="Glamour Hairstyles" />
               </span>
               <span className="text-[7px] tracking-[0.35em] text-[#E3B888]/80 font-light uppercase mt-0.5 hidden lg:block">
                 BY CARLOS HENRIQUE
