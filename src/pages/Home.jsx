@@ -8,6 +8,7 @@ import Team from "../components/home/Team";
 import Testimonials from "../components/home/Testimonials";
 import LocationHours from "../components/home/LocationHours";
 import Footer from "../components/layout/Footer";
+import ProductShowcase from "../components/home/Product";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <FounderSpotlight />
       <Services />
       <Team />
+      <ProductShowcase />
       <Testimonials />
       <LocationHours />
       <Footer />
